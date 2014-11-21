@@ -1,0 +1,13 @@
+﻿<Window x:Class="SimpleWebRefresher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+	<Grid>
+		<WebBrowser x:Name="WebBrowserMain" HorizontalAlignment="Left" Height="253" Margin="10,38,0,0" VerticalAlignment="Top" Width="497"/>
+		<TextBox x:Name="TextBoxAddress" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="http://" VerticalAlignment="Top" Width="354"/>
+		<TextBox x:Name="TextboxTimer" HorizontalAlignment="Left" Height="23" Margin="398,10,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" Width="64"/>
+		<TextBlock HorizontalAlignment="Left" Margin="369,11,0,0" TextWrapping="Wrap" Text="매초" VerticalAlignment="Top"/>
+		<TextBlock x:Name="TextBlockLog" HorizontalAlignment="Left" Margin="10,296,0,0" TextWrapping="Wrap" Text="Log&gt;" VerticalAlignment="Top" Width="497"/>
+
+	</Grid>
+</Window>
